@@ -198,17 +198,17 @@ input:invalid{
 .form-container form .btn:hover{
     background: var(--main-color);
 }
-.bubbles img{
+.wheel img{
     width: 50px;
     animation: anim 7s linear infinite;
 }
-.bubbles{
+.wheel{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -90vh;
+    bottom: -100vh;
 }
 @keyframes anim {
     0%{
@@ -226,41 +226,41 @@ input:invalid{
         opacity: 0;
     }
 }
-.bubbles img:nth-child(1){
+.wheel img:nth-child(1){
     animation-delay: 2s;
     width: 30px;
 }
-.bubbles img:nth-child(2){
+.wheel img:nth-child(2){
     animation-delay: 1s;
 }
-.bubbles img:nth-child(3){
+.wheel img:nth-child(3){
     animation-delay: 3s;
     width: 20px;
 }
-.bubbles img:nth-child(4){
+.wheel img:nth-child(4){
     animation-delay: 4.5s;
 }
-.bubbles img:nth-child(5){
+.wheel img:nth-child(5){
     animation-delay: 3s;
     width: 35px;
 }
-.bubbles img:nth-child(6){
+.wheel img:nth-child(6){
     animation-delay: 6s;
 }
-.bubbles img:nth-child(7){
+.wheel img:nth-child(7){
     animation-delay: 7s;
     width: 10px;
 }
-.bubbles img:nth-child(8){
-    animation-delay: 1s;
+.wheel img:nth-child(8){
+    animation-delay: 10s;
     width: 40px;
 }
-.bubbles img:nth-child(9){
+.wheel img:nth-child(9){
     animation-delay: 8s;
     width: 15px;
 }
-.bubbles img:nth-child(10){
-    animation-delay: 5s;
+.wheel img:nth-child(10){
+    animation-delay: 10s;
     width: 25px;
 }
 
